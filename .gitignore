@@ -2,6 +2,5 @@ node_modules
 build
 *.log
 *.min.js
-*.debug.js
 *.map
 .idea
