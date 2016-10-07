@@ -7,7 +7,7 @@ export const FETCH_ARTICLES_SUCCESS = 'FETCH_ARTICLES_SUCCESS';
 export const FETCH_ARTICLES_ERROR = 'FETCH_ARTICLES_ERROR';
 export function fetchArticles() {
 	console.log('1111');
-	let url = '/blog/articles/Article.js';
+	let url = '/Blog/blog/articles/Article.js';
 	return {
 		[CALL_API]: {
 			url: url,
@@ -23,7 +23,7 @@ export function fetchContent(contentId) {
 	console.log('bbbb');
 	let id = contentId+1;
 	console.log(id, 'id----')
-	let url = `/blog/articles/Article${id}.js`;
+	let url = `/Blog/blog/articles/Article${id}.js`;
 	return {
 		[CALL_API]: {
 			url: url,
