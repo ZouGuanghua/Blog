@@ -1,4 +1,7 @@
 node_modules
-bower_components
-public
-.idea/
+build
+*.log
+*.min.js
+*.debug.js
+*.map
+.idea
