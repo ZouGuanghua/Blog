@@ -13,7 +13,7 @@ class Footer extends Component {
           </div>
           <div className="two">
             <a href="#">Resume</a>
-            <div><i className='iconfont'>&#xe600;</i><span>151 7326 6501</span></div>
+            <div><i className='iconfont'>&#xe600;</i><span>185 7152 7490</span></div>
           </div>
           <div className="three">
             <a href="#">Project</a>
